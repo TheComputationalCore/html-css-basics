@@ -16,7 +16,7 @@ html-css-mini-tasks/
 │
 ├── .github/
 │   └── workflows/
-│       └── html-check.yml
+│       └── lint.yml
 │
 ├── screenshots/
 │   ├── 1.png
