@@ -12,40 +12,25 @@ Screenshots and clean project structure are included for clarity.
 ## 📂 Project Structure
 
 ```
-html-css-mini-tasks/
+html-css-basics/
 │
-├── .github/
-│   └── workflows/
-│       └── lint.yml
+├── screenshots/        # Screenshots for each task (1.png → 11.b.png)
 │
-├── screenshots/
-│   ├── 1.png
-│   ├── 2.png
-│   ├── 3.png
-│   ├── 4.png
-│   ├── 5.a.png
-│   ├── 5.b.png
-│   ├── 6.png
-│   ├── 7.png
-│   ├── 8.png
-│   ├── 9.png
-│   ├── 10.png
-│   ├── 11.a.png
-│   └── 11.b.png
-│
-├── Question1.html
-├── Question2.html
-├── Question3.html
-├── styleQ3.css
-├── Question4.html
-├── Question5.html
-├── Question6.html
-├── Question7.html
-├── styleQ7.css
-├── Question8.html
-├── Question9.html
-├── Question10.html
-├── Question11.html
+├── templates/          # Corrected HTML & CSS solutions
+│   ├── Question1.html
+│   ├── Question2.html
+│   ├── Question3.html
+│   ├── styleQ3.css
+│   ├── Question4.html
+│   ├── Question5.html
+│   ├── Question6.html
+│   ├── Question7.html
+│   ├── styleQ7.css
+│   ├── Question8.html
+│   ├── Question9.html
+│   ├── Question10.html
+│   ├── Question11.html
+│   └── task.md         # Contains all original questions
 │
 ├── LICENSE
 └── README.md
