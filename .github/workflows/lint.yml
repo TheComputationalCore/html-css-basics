@@ -1,0 +1,36 @@
+name: HTML & CSS Lint
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install Linters
+        run: |
+          npm install -g htmlhint stylelint stylelint-config-standard
+
+      - name: Run HTMLHint
+        run: htmlhint "**/*.html"
+
+      - name: Create .stylelintrc for CSS Linting
+        run: |
+          echo '{
+            "extends": "stylelint-config-standard"
+          }' > .stylelintrc.json
+
+      - name: Run Stylelint
+        run: stylelint "**/*.css"
