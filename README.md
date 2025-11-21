@@ -16,7 +16,7 @@ html-css-basics/
 │
 ├── screenshots/        # Screenshots for each task (1.png → 11.b.png)
 │
-├── templates/          # Corrected HTML & CSS solutions
+├── templates/          
 │   ├── Question1.html
 │   ├── Question2.html
 │   ├── Question3.html
